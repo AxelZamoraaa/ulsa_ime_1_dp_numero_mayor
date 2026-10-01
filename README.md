@@ -164,4 +164,5 @@ _____
 - [ ] No modifiqué `utilerias.h`
 - [ ] Hice al menos 3 commits con mensajes claros
 - [ ] Hice `git push` y verifiqué mi fork en GitHub
+- [ ] Mi fork se llama `ulsa_ime_1_dp_numero_mayor` y el código está en `main.cpp`
 - [ ] Entregué el enlace de mi fork en Classroom

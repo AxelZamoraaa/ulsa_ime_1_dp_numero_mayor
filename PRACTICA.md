@@ -49,10 +49,14 @@ ulsa_ime_1_dp_numero_mayor/
 ├── RECETA.md      ← solo trae el primer paso: tu receta completa va aquí
 ├── main.cpp       ← punto de partida de tu programa (casi vacío)
 ├── utilerias.h    ← funciones de apoyo para leer números (no lo modifiques)
+├── .vscode/       ← configuración del editor (no lo modifiques)
 └── .gitignore     ← evita subir el ejecutable
 ```
 
 **Todo tu trabajo va dentro de esta carpeta.**
+
+> **Nota técnica: sin autocompletado.**
+> En este proyecto el editor no te sugiere código: lo escribes todo tú para aprender la sintaxis. Copilot Chat sí está disponible para resolver dudas, y los errores se siguen marcando en rojo mientras escribes.
 
 > **Nota técnica: ¿qué función de `utilerias.h` necesitas?**
 > `utilerias.h` trae las dos funciones que ya conoces: `leerEntero`, que solo acepta enteros, y `leerDecimal`, que acepta decimales. Esta vez **tú decides** cuál usar.
@@ -258,7 +262,7 @@ Los resultados esperados muestran el **valor** del mayor. Si decidiste mostrar t
 
 **Retos opcionales (para tu insatisfacción positiva):**
 
-Si haces un reto, escribe primero los pasos nuevos en la sección "Cambios para el reto" de `RECETA.md` y después prográmalos.
+Si haces un reto, agrega primero los pasos nuevos a tu receta en `RECETA.md` y después prográmalos.
 
 1. Muestra también **cuál** fue el mayor (primero, segundo o tercero) y, si hay empate, avísalo.
 2. Muestra también el **menor** de los tres.
