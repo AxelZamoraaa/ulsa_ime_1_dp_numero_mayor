@@ -6,7 +6,7 @@
 
 ``` text
 
-1.MOSTRAR "Programa: el mayor de tres numeros"
+1.MOSTRAR "Bienvenido al mayor de tres nuemor"
 2. respuesta ← "si"
 3. MIENTRAS respuesta = "si" HACER
       num1 ← leerDecimal("Primer numero: ")
@@ -24,7 +24,7 @@
           FIN SI
           MOSTRAR "El mayor es:", mayor
       FIN SI
-      respuesta ← leerTexto("Quieres intentarlo de nuevo? (si/no): ")
+      respuesta ← leerTexto("Quieres otra vez? (si/no): ")
    FIN MIENTRAS
-4. MOSTRAR "Gracias por usar el programa. Hasta luego."
+4. MOSTRAR "Gracias por usar el programa"
 5. FIN
