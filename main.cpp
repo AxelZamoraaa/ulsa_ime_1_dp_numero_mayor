@@ -1,30 +1,28 @@
 #include <iostream>
 
-#include <string<
+#include <string>
 #include "utilerias.h"
 
 using namespace std;
 
 int main() {
     
-    double num1 = 0
+    double num1 = 0;
     double num2 = 0;
     double num3 = 0;
     double mayor = 0;
     string respuesta = "si";
 
-    cout << "Programa: el mayor de tres numeros" << endl;
+    cout << "Bienvenido al mayor de tres numeros" << endl;
     
     while (respuesta == "si") {
         
-        cout << "Primero numero: ";
-        cin >> num1;
-        cout << "Segundo numero: ";
-        cin >> num2;
-        cout << "Tercer numero: ";
-        cin >> num3;
 
-        if (num1 == num && num2 == num3) {
+      num1 = leerDecimal("Primero numero: ");
+      num2 = leerDecimal("Segundo numero: ");
+      num3 = leerDecimal("Tercer numero: ");
+
+        if (num1 == num2 && num2 == num3) {
             cout << "Los tres numeros son iguales" << endl;
         } else {
           if (num1 >= num2 && num1 >= num3) {
