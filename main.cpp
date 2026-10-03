@@ -1,11 +1,6 @@
-// Práctica 5: El mayor de tres números
-// Traduce TU receta de RECETA.md a C++, paso por paso.
-// Deja el comentario "// Paso N" sobre cada bloque, con la numeración de TU receta.
-
-// ¿Recuerdas qué hace iostream?
 #include <iostream>
 
-// ¿Qué función de utilerias.h vas a usar? ¿Por qué esa y no la otra?
+
 #include "utilerias.h"
 
 int main() {
@@ -19,6 +14,6 @@ int main() {
     //       ¿Tu decisión necesita una cadena if / else if / else o varios if independientes?
     //       ¿Qué pasa con tu código si dos números son iguales?
 
-    // ¿Qué significa return 0;?
+    
     return 0;
 }
