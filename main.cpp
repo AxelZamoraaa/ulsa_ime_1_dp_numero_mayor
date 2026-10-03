@@ -1,19 +1,47 @@
 #include <iostream>
 
-
+#include <string<
 #include "utilerias.h"
 
+using namespace std;
+
 int main() {
-    // Variables (siempre inicializadas)
-    // TODO: ¿cuántas necesitas? ¿De qué tipo? ¿Necesitas alguna además de los tres números?
-
-    // Paso 1: mensaje de bienvenida
-    // TODO
-
-    // TODO: el resto de tu receta, paso por paso.
-    //       ¿Tu decisión necesita una cadena if / else if / else o varios if independientes?
-    //       ¿Qué pasa con tu código si dos números son iguales?
-
     
+    double num1 = 0
+    double num2 = 0;
+    double num3 = 0;
+    double mayor = 0;
+    string respuesta = "si";
+
+    cout << "Programa: el mayor de tres numeros" << endl;
+    
+    while (respuesta == "si") {
+        
+        cout << "Primero numero: ";
+        cin >> num1;
+        cout << "Segundo numero: ";
+        cin >> num2;
+        cout << "Tercer numero: ";
+        cin >> num3;
+
+        if (num1 == num && num2 == num3) {
+            cout << "Los tres numeros son iguales" << endl;
+        } else {
+          if (num1 >= num2 && num1 >= num3) {
+              mayor = num1;
+          } else if (num2 >= num1 && num2 >= num3) {
+              mayor = num2;
+          } else {
+              mayor = num3;
+          }
+          cout << "El mayor es: " << mayor << endl;
+        }
+
+        cout << "Quieres intentarlo otra vez? (si/no): ";
+        cin >> respuesta;
+    }
+
+    cout << "Gracias por usar el programa" << endl;
+
     return 0;
 }
